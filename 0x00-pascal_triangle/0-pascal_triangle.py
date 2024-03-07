@@ -7,7 +7,7 @@ def pascal_triangle(n):
     """Pascals Triangle"""
     result = [[1]]
 
-    if n < n:
+    if n <= 0:
         return []
     else:
         for i in range(n - 1):

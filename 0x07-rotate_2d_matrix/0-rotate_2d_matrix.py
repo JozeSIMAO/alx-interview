@@ -7,10 +7,10 @@ Rotate 2D Matrix
 def rotate_2d_matrix(matrix):
     """
     Rotate a 2D matrix 90 degrees clockwise.
-    
+
     Args:
         matrix (list of list): The input 2D matrix.
-        
+
     Returns:
         None. The matrix is modified in-place.
     """
